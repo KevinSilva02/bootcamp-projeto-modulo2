@@ -1,0 +1,12 @@
+body{
+    background-color: #F5F5F5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    background-image: linear-gradient(to bottom, #1F0C22, #641F70);
+}
+
+.flex-container {
+    background-image: linear-gradient(to bottom, #641F70, #1F0C22,);
+}
