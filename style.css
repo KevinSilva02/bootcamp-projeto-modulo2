@@ -1,12 +1,30 @@
 body{
     background-color: #F5F5F5;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
 }
 
 .container {
     background-image: linear-gradient(to bottom, #1F0C22, #641F70);
+    margin: auto;
+    margin-top: 50px;
+    width: 650px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 .flex-container {
     background-image: linear-gradient(to bottom, #641F70, #1F0C22,);
+}
+
+.title {
+    color: #FECD23;
+    padding: 10px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.conteudo {
+    padding: 10px;
 }
