@@ -19,6 +19,16 @@ input:focus {
     box-shadow: 0 0 10px #1F0C22;
 }
 
+button{
+    padding:10px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #1D0C20;
+    width: 50%;
+    border: none;
+    cursor: pointer;
+}
+
 .container {
     background-image: linear-gradient(to bottom, #1F0C22, #641F70);
     margin: auto;
@@ -30,7 +40,7 @@ input:focus {
 }
 
 .corpo {
-    background-image: linear-gradient(to up, #1F0C22, #641F70);
+    background-image: linear-gradient(to bottom, #641F70, #1F0C22);
     box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
@@ -55,5 +65,24 @@ input:focus {
 .subTitle {
     font-size: 25px;
     padding: 10px;
+}
 
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: linear-gradient(to bottom, #3D5DEE, #73CDFF);
+    border-radius: 10px;
+    border: 10px solid #2738DB;
+    padding: 10px;
+    margin-top: 10px;
 }
