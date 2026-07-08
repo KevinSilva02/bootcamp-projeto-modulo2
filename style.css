@@ -86,3 +86,15 @@ button{
     padding: 10px;
     margin-top: 10px;
 }
+
+@media screen and (max-width: 620px) {
+    
+    .flex-container {
+        display: flex;
+        flex-direction: column; 
+    } 
+    
+    .container {
+        width: 90%;
+    }
+}
